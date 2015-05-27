@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.1.6/nprogress.min.css" rel="stylesheet"/>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.css" rel="stylesheet" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet"/>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/normalize.css" rel='stylesheet'/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'/>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/fadecarousel.css" rel="stylesheet" type="text/css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Home</title>
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="fa fa-cube"></i>&nbsp;&nbsp;QUBE SOLUTIONS</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="cart.html"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Cart  <span class="badge" id="badge">0</span></a></li>
+        <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-power-off"></i>&nbsp;&nbsp;Login/Sign Up</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>             
+    <div class="pause"><a onclick="pauseplay();" style="color:white !important;"><i id="pauseplay" class="fa fa-pause"></i></a></div>
+<div class="slidepercent slideanim" id="percent" style="box-shadow: 5px 0px 5px #888888;">
+</div>
+<div class="carousel slide" id="carousel1" data-pause="false">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel1" data-slide-to="1"></li>
+    <li data-target="#carousel1" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img id="image1" src="img/slide1.jpg" alt="..." style="width:1920px; height:500px;">
+      <div class="carousel-caption">
+        <h3 class="slogan">Sleek, Intuitive, Simple.</h3>
+        <p>User interface comes first, so you can turn visitors into customers.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img id="image2" src="img/slide2.jpg" alt="..." style="width:1920px; height:500px;" >
+      <div class="carousel-caption">
+        <h3 class="slogan2">24/7 Hosting. 365 Days a Year</h3>
+          <p>With a guaranteed 99% uptime, your site never sleeps. Even when you do.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img id="image3" src="img/slide3.jpg" alt="..." style="width:1920px; height:500px;">
+      <div class="carousel-caption">
+        <h3 class="slogan">Worldwide Access.</h3>
+          <p>Visit anywhere, anytime.</p>
+      </div>
+    </div>
+ </div>
+</div>
+<div class="container-fluid">
+    <center><h1 class="os" style="font-size:4em;">Start building your site today.</h1></center>
+</div>
+    <section id="carousel">    				
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+				<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+				  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+				    <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+				  </ol>
+				  <!-- Carousel items -->
+				  <div class="carousel-inner">
+				    <div class="active item">
+				    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    	<div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
+				    </div>
+				    <div class="item">
+				    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    	<div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+				    </div>
+				    <div class="item">
+				    	<blockquote>
+				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    	</blockquote>
+				    	<div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+				    </div>
+				  </div>
+				</div>
+			</div>							
+		</div>
+	</div>
+</section>
+<footer class="footer">
+  <div class="row">
+    <div class="small-12 medium-6 large-5 columns">
+      <p class="logo"><i class="fa fa-cube"></i> Qube Solutions</p> 
+      <p class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="faq.html">FAQ</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </p>
+    </div>
+    <div class="small-12 medium-6 large-4 columns">
+      <ul class="contact">
+        <li><p><i class="fi-marker"></i>1595 Spring Street New Britain, CT 06051</p></li>
+        <li><p><i class="fi-telephone"></i>+1-656-453-9966</p></li>
+        <li><p><i class="fi-mail"></i>contact@qube.com</p></li>
+      </ul>
+    </div>
+    <div class="small-12 medium-12 large-3 columns">
+      <p class="about">About Qube</p>
+      <p class="about subheader">A small web-based solutions provider dedicated to providing excellent service.</p>
+      <ul class="inline-list social">
+        <a href="#"><i class="fi-social-facebook"></i></a>
+        <a href="#"><i class="fi-social-twitter"></i></a>
+        <a href="#"><i class="fi-social-linkedin"></i></a>
+        <a href="#"><i class="fi-social-github"></i></a>
+      </ul>
+    </div>
+  </div>
+</footer>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Log In / Sign Up</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row" style="padding-left:20px;">
+          <div class="alert alert-danger" role="alert">We are currently experiencing issues with the login servers.</div>
+            <div class="col-md-6" style="padding-left:0px;">
+                <h4>Existing User?</h4>
+                <form class="form-inline">
+                  <div class="form-group">
+                    <div class="input-group" style="margin-bottom:12px;">
+                        <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                        <input type="text" placeholder="Username" style="margin-bottom:0px;">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-addon" style="width:36px;"><i class="fa fa-lock"></i></div>
+                        <input type="password" placeholder="Password" style="margin-bottom:0px;">
+                    </div>
+                 </div>
+                </form>
+                <button class="btn btn-primary btn-large" style="margin-top:20px; width:212px;">Log In</button>
+            </div>
+            <div class="col-md-6">
+                <h4>New User?</h4>
+                <form class="form-inline">
+                  <div class="form-group">
+                    <div class="input-group" style="margin-bottom:12px;">
+                        <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                        <input type="text" placeholder="Username" style="margin-bottom:0px;">
+                    </div>
+                    <div class="input-group" style="margin-bottom:12px;">
+                        <div class="input-group-addon" style="width:37px; padding: 0 0 0 0;" ><i class="fa fa-envelope-o"></i></div>
+                         <input type="email" class="form-control" placeholder="Email" style="margin-bottom:0px;">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-addon" style="width:36px;"><i class="fa fa-lock"></i></div>
+                        <input type="password" placeholder="Password" style="margin-bottom:0px;">
+                    </div>
+                 </div>
+                  <button type="submit" class="btn btn-primary btn-large" style="margin-top:20px; width:212px;">Sign Up</button>
+                </form>
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p style="margin-bottom:0px;">&copy; Qube Solutions 2015</p>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/vendor/jquery.js"></script> 
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.4/zepto.min.js"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation/foundation.js"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation/foundation.offcanvas.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation/foundation.reveal.js"></script>
+
+<script>
+$(document).foundation('reveal', 'reflow');
+</script>
+<script>
+    var sliderstate = 0;
+    $(document).ready(function() {
+        
+        //document.getElementsByName("images").src="http://placehold.it/" + window.innerWidth + "x600";
+        var height=window.innerHeight + "px;";
+        console.log(height);
+        document.getElementById("image1").style.height=height;
+        document.getElementById("image2").style.height=height;
+        document.getElementById("image3").style.height=height;
+        var value = sessionStorage.getItem("item");
+        if (value !== null) {
+            document.getElementById("badge").innerHTML = "1";
+            console.log(value);
+        }
+    });
+    $(window).load(function(){
+        document.getElementById("percent").style.width="100%";
+    });
+    $('#carousel1').carousel({
+    interval: 7000
+    });
+    $('#carousel1').on('slide.bs.carousel', function () { 
+        slidereverse();
+    });
+    $('#carousel1').on('slid.bs.carousel', function () { 
+        slideplay();
+    });
+    function pauseplay(){
+        console.log("click");
+        if(sliderstate==0){
+            document.getElementById("pauseplay").className="fa fa-play";
+            sliderstate=1;
+            $('#carousel1').carousel('pause');
+            console.log(sliderstate);
+            slidereverse();
+        }
+        else if(sliderstate==1){
+            document.getElementById("pauseplay").className="fa fa-pause";
+            sliderstate=0;
+            $('#carousel1').carousel('cycle');
+            console.log(sliderstate);
+            slideplay();
+        }
+    }
+    function slidereverse(){
+        document.getElementById("percent").className = "slidepercent slideanimback";
+        document.getElementById("percent").style.width="0%";
+    }
+    function slideplay() {
+        if (sliderstate == 1) {
+            slidereverse();
+        }
+        else {
+            document.getElementById("percent").className = "slidepercent slideanim";
+            document.getElementById("percent").style.width = "100%";
+        }
+    }
+    </script>
+    <script>
+    $(window).load(function(){
+       var value = sessionStorage.getItem("item");
+       if (value !== null) {
+            document.getElementById("badge").innerHTML = "1";
+            console.log(value);
+       }
+    });
+
+    </script>
+</body>
+</html>
