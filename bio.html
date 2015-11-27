@@ -9,7 +9,7 @@
             var o = "";
             var s = document.getElementById('input').value;
             s.toString().toLowerCase();
-            for (var i = 0; i < s.length - 1; i++) {
+            for (var i = 0; i < s.length; i++) {
                 console.log('call');
                 if (s.charAt(i) == "a") {
                     o += "u";
@@ -35,7 +35,11 @@
         }
     </style>
     <center>
-        <h1>Protein Synthesis</h1></center>
+        <h1>Protein Synthesis</h1>
+        <small>A->U, T->A, C->G, G->C</small>
+        </br>
+        </br>
+    </center>
     <center>
         <input type='text' id='input' style='height:20px; width:50%;' />
         </br>
