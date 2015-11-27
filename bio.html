@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css' />
+    <script>
+        function synth() {
+            var o = "";
+            var s = document.getElementById('input').value;
+            s.toString().toLowerCase();
+            for (var i = 0; i < s.length - 1; i++) {
+                console.log('call');
+                if (s.charAt(i) == "a") {
+                    o += "u";
+                } else if (s.charAt(i) == "t") {
+                    o += "a";
+                } else if (s.charAt(i) == "c") {
+                    o += "g";
+                } else if (s.charAt(i) == "g") {
+                    o += "c";
+                } else {
+                    o += s.charAt(i);
+                }
+            }
+            document.getElementById('output').innerHTML = o;
+        }
+    </script>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+    <center>
+        <h1>Protein Synthesis</h1></center>
+    <center>
+        <input type='text' id='input' style='height:20px; width:50%;' />
+        </br>
+        <button onclick="synth()">Synthesize</button>
+    </center>
+
+    <center>
+        </br>
+        </br>
+        <div id="output" style='font-size:1.5em; width:50%;word-wrap:break-word;'>
+        </div>
+    </center>
+
+</body>
+
+</html>
